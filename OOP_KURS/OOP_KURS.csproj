@@ -57,9 +57,12 @@
     </ApplicationDefinition>
     <Compile Include="Doctor.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="Lech_Des.cs" />
+    <Compile Include="Lech_Kar.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="reception.cs" />
     <Compile Include="Services.cs" />
+    <Compile Include="Therapy.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

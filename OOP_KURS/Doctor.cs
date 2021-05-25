@@ -28,12 +28,12 @@ namespace OOP_KURS
         }
         public List<Services> thisService
         {
-            get { return thisService; }
+            get { return ThisDoctorServices; }
 
         }
         public Services setThisService
         {
-            set { thisService.Add(value); }
+            set { ThisDoctorServices.Add(value); }
         }
     }
 
