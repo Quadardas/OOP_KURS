@@ -6,8 +6,45 @@
         xmlns:local="clr-namespace:OOP_KURS"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid RenderTransformOrigin="0.115,0.41">
-        <Button Content="Button" HorizontalAlignment="Left" Margin="644,342,0,0" VerticalAlignment="Top" Width="138" Height="67" RenderTransformOrigin="0.187,0.369"/>
+    <Grid RenderTransformOrigin="0.115,0.41" Margin="10,0,0,0">
+        <Grid.RowDefinitions>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <TabControl HorizontalAlignment="Left" Height="409" VerticalAlignment="Top" Width="772">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <ComboBox x:Name="ServicesCB" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="NamePatTB" HorizontalAlignment="Left" Height="23" Margin="10,37,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="AddPatAdd" Content="Button" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem" RenderTransformOrigin="0.5,0.5">
+                <TabItem.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.557"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TabItem.RenderTransform>
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid HorizontalAlignment="Left" Height="361" Margin="10,10,0,0" VerticalAlignment="Top" Width="746"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="54">
+                <Grid Background="#FFE5E5E5">
+                    <ComboBox x:Name="EducCB" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Slider x:Name="AgeDoc" HorizontalAlignment="Left" Margin="152,14,0,0" VerticalAlignment="Top" Width="100" Maximum="30" Minimum="2"/>
+                    <TextBox x:Name="NameDocTB" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Slider x:Name="StazhDoc" HorizontalAlignment="Left" Margin="152,42,0,0" VerticalAlignment="Top" Width="100" Minimum="26" Maximum="65"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="75"/>
+                    <ComboBox x:Name="ServicesDocCB" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>
