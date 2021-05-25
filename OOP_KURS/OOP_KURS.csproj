@@ -65,6 +65,7 @@
     <Compile Include="reception.cs" />
     <Compile Include="Services.cs" />
     <Compile Include="Therapy.cs" />
+    <Compile Include="ZubCumIn.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
