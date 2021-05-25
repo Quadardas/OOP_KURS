@@ -60,7 +60,6 @@
     <Compile Include="Patient.cs" />
     <Compile Include="reception.cs" />
     <Compile Include="Services.cs" />
-    <Compile Include="TypeServices.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -1,31 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace OOP_KURS
 {
-    public class Services : TypeServices
+    public class Services
     {
-        int Price;
-        string NameS;
+        string name; int price;
 
-        public Services(int Price, string NameS, string type) : base(type)
+        public Services(string Name, int Price)
         {
-            this.Price = Price;
-            this.NameS = NameS;
+            this.name = Name;
+            this.price = Price;
         }
-
+        public string thisServicesName
+        {
+            get { return this.name; }
+            set { this.name = value is string ? value : null; }
+        }
         public int thisPrice
         {
-            get { return this.Price; }
-            set { this.Price = value; }
-        }
-        public string thisNameS
-        {
-            get { return this.NameS; }
-            set { this.NameS = value is string ? value : null; }
+            get { return this.price; }
+            set { this.price = value; }
         }
     }
 }
