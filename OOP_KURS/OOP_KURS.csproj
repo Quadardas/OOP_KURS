@@ -64,6 +64,7 @@
     <Compile Include="Patient.cs" />
     <Compile Include="reception.cs" />
     <Compile Include="Services.cs" />
+    <Compile Include="Surgery.cs" />
     <Compile Include="Therapy.cs" />
     <Compile Include="ZubCumIn.cs" />
     <Page Include="MainWindow.xaml">
