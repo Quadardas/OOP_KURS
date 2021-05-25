@@ -24,5 +24,12 @@ namespace OOP_KURS
         {
             InitializeComponent();
         }
+        //public List<string> BadZubs = new List<string>();
+
+        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Zubs zubs = new Zubs();
+            zubs.Show();
+        }
     }
 }
