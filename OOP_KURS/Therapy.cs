@@ -14,5 +14,10 @@ namespace OOP_KURS
             get { return this.therapyType; }
             set { this.therapyType = value is string ? value : null; }
         }
+        public override string display()
+        {
+            string text = $"тип терапии {this.therapyType}";
+            return text;
+        }
     }
 }

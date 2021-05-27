@@ -21,5 +21,10 @@ namespace OOP_KURS
             get { return this.price; }
             set { this.price = value; }
         }
+        public virtual string display()
+        {
+            string text = $"Название {this.name}, Цена {this.price}";
+            return text;
+        }
     }
 }

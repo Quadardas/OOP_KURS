@@ -12,7 +12,6 @@ namespace OOP_KURS
 
         public Lech_Des(string name, int price, string type) : base(type, name, price)
         {
-
         }
 
         public List<string> thisDESNs
